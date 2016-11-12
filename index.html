@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="shortcut icon" href="/1001golos.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>1001Голос | Битвы через социальные сети</title>
+
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="1 hour">
+	<meta name="description" content="Онлайн голосование определит лучшего! Создавайте битвы, смотрите лучшие битвы, узнавайте результаты завершённых битв.">
+	<meta name="keywords" content="Битвы, битва, лучшие битвы, создать битву, завершённые битвы, голосование, онлайн битвы, 1001голос, 1001 голос, интернет битвы, социальные сети">
+
+	<meta property="fb:admins" content="1341124907">
+	    
+    <link type="text/css" href="http://1001golos.ru/static/css/frontend.css" rel="stylesheet" media="all">    
+    <!-- JS-->
+	<script>
+		window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+		ga('create', 'UA-22922008-3', 'auto');
+		ga('send', 'pageview');
+		window.onerror = function(errMsg, url, line) {
+			ga('send', 'event', 'JavaScript Error', errMsg, navigator.userAgent+' -> '+url+':'+line, {nonInteraction:1});
+			return true;
+		};
+	</script>
+    <script type="text/javascript" src="http://1001golos.ru/static/js/libs.js"></script>    <script type="text/javascript" src="http://1001golos.ru/static/js/app.js"></script>    
+	<script>
+        if(window.self !== window.top) {window.top.location.href=window.location.href;}
+
+		$.fn.timer.Constructor.prototype.DEFAULTS.language = {
+						d: { 0: "День",    1: "Дня",     2: "Дней"   },
+						h: { 0: "Час",     1: "Часа",    2: "Часов"  },
+						m: { 0: "Минута",  1: "Минуты",  2: "Минут"  },
+						s: { 0: "Секунда", 1: "Секунды", 2: "Секунд" }
+						};
+    </script>
+<link type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" media="all"></head>
+<body>
+
+<!-- TOP MENU -->
+<nav class="navbar navbar-header navbar-fixed-top">
+	<div class="container">
+		<a href="#" class="navbar-brand">1001Голос | Битвы через социальные сети</a>
+
+		<ul class="nav navbar-nav">
+			<li><a href="/add"><i class="fa fa-plus"></i> Добавить битву</a></li>
+			<li><a href="/browse"><i class="fa fa-star"></i> Лучшие битвы</a></li>
+		</ul>
+
+				<ul class="nav navbar-nav pull-right">
+			<li><a href="/signin">Вход</a></li>
+			<li><a href="/signup">Регистрация</a></li>
+		</ul>
+			</div>
+</nav>
+<!-- Page Content -->
+
+<!-- Main Battle -->
+
+
+<!-- Battle -->
+<div class="container ctrl-battle">
+	<h1 class="battle-text">
+		Лучший подарок на 8 марта:	</h1>
+	<div class="row">
+
+		
+		<!-- Battle Options -->
+				<div class="battle-options five-options clearfix" id="battle-options">
+			
+				<!-- VS -->
+				
+				<!-- Option -->
+				<div class="battle-option first">
+					<div class="option-image">
+						<div class="battle-image">
+							<img src="./files/pic1.jpg" alt="Букет цветов">
+						</div>
+					</div>
+					<div class="opponent-title">
+						Букет цветов					</div>
+					<div class="votes-number" id="vote-num-1">
+						242					</div>
+					<div class="votes-label">
+						голосов
+					</div>
+																		<div class="option-vote-btn">
+								<a class="btn btn-green" href="#" onclick="return Battle.initPopup(1)">Голосовать</a>
+							</div>
+															</div>
+			
+				<!-- VS -->
+								<div class="option-versus">
+					VS
+									</div>
+				
+				<!-- Option -->
+				<div class="battle-option second">
+					<div class="option-image">
+						<div class="battle-image">
+							<img src="./files/pic2.jpg" alt="Машина">
+						</div>
+					</div>
+					<div class="opponent-title">
+						Машина					</div>
+					<div class="votes-number" id="vote-num-1">
+						376					</div>
+					<div class="votes-label">
+						голосов
+					</div>
+																		<div class="option-vote-btn">
+								<a class="btn btn-orange" href="#" onclick="return Battle.initPopup(1)">Голосовать</a>
+							</div>
+															</div>
+			
+				<!-- VS -->
+								<div class="option-versus">
+					VS
+									</div>
+				
+				<!-- Option -->
+				<div class="battle-option third">
+					<div class="option-image">
+						<div class="battle-image">
+							<img src="./files/pic3.jpg" alt="Телефон">
+						</div>
+					</div>
+					<div class="opponent-title">
+						Телефон					</div>
+					<div class="votes-number" id="vote-num-1">
+						1365					</div>
+					<div class="votes-label">
+						голосов
+					</div>
+																		<div class="option-vote-btn">
+								<a class="btn btn-red" href="#" onclick="return Battle.initPopup(1)">Голосовать</a>
+							</div>
+															</div>
+			
+				<!-- VS -->
+								<div class="option-versus">
+					VS
+									</div>
+				
+				<!-- Option -->
+				<div class="battle-option fourth">
+					<div class="option-image">
+						<div class="battle-image">
+							<img src="./files/pic4.jpg" alt="Ювелирные изделия">
+						</div>
+					</div>
+					<div class="opponent-title">
+						Ювелирные изделия					</div>
+					<div class="votes-number" id="vote-num-1">
+						293					</div>
+					<div class="votes-label">
+						голосов
+					</div>
+																		<div class="option-vote-btn">
+								<a class="btn btn-violet" href="#" onclick="return Battle.initPopup(1)">Голосовать</a>
+							</div>
+															</div>
+			
+				<!-- VS -->
+								<div class="option-versus">
+					VS
+									</div>
+				
+				<!-- Option -->
+				<div class="battle-option fifth">
+					<div class="option-image">
+						<div class="battle-image">
+							<img src="./files/pic5.jpg" alt="Сумка">
+						</div>
+					</div>
+					<div class="opponent-title">
+						Сумка					</div>
+					<div class="votes-number" id="vote-num-1">
+						32					</div>
+					<div class="votes-label">
+						голосов
+					</div>
+																		<div class="option-vote-btn">
+								<a class="btn btn-black" href="#" onclick="return Battle.initPopup(1)">Голосовать</a>
+							</div>
+															</div>
+					</div>
+
+			</div>
+</div>
+
+<!-- Additional Battle Stuff -->
+<div class="container battle-additional">
+	<div class="row">
+		<div class="col-12">
+
+							<!-- Back Arrow -->
+				<div class="battle-pager prev">
+					<a href="#" title="Предыдущая Битва"><div><span>Предыдущая Битва</span></div></a>
+				</div>
+
+				<!-- Next Arrow -->
+				<div class="battle-pager next">
+					<a href="#" title="Следующая Битва"><div><span>Следующая Битва</span></div></a>
+				</div>
+			
+            <div class="battle-actions">
+                <!-- Comment link -->
+                                    
+                <!-- Extend link -->
+                
+                <!-- Report link -->
+                
+                            </div>
+
+			<!-- Vote Message -->
+			<div class="battle-voted" id="battle-voted" style="display:none">
+				Спасибо! Ваш голос засчитан.<br>Поделитесь ссылкой на битву в соц. сетях:				<div class="vote-links">
+					<a href="#" class="vk" onclick="return Battle.votePopup(vk, true)" title="vKontakte">vKontakte</a>
+					<a href="#" class="fb" onclick="return Battle.votePopup(fb, true)" title="Facebook">Facebook</a>
+											<div class="ok" id="okvoted"><iframe id="__okShare5" scrolling="no" frameborder="0" src="/ok.html" style="border: 0px; width: 47px; height: 45px;"></iframe></div>
+										<a href="#" class="tw" onclick="return Battle.votePopup(tw, true)" title="Twitter">Twitter</a>
+					<a href="#" class="ml" onclick="return Battle.votePopup(ml, true)" title="Mail.Ru">Mail.Ru</a>
+				</div>
+                <a class="battle-link m-vote" href="#" data-toggle="modal" data-remote="/vote/reset/1485684" data-add-class="modal-vote-reset" data-backdrop="static">
+					Проголосовать еще раз				</a>
+			</div>
+
+			<!-- Battle Timer -->
+						<div class="battle-timer" id="battle-timer">
+				Осталось Времени				<div id="countdown" data-to="1460171897" data-now="1457798155"><span class="number">27</span> <span class="word">Дней</span> <span class="number">11</span> <span class="word">Час</span> <span class="number">22</span> <span class="word">Минут</span> <span class="number">25</span> <span class="word">Секунд</span></div>
+			</div>
+			<script>
+				$('#countdown').timer().on('timer.finished', function(){
+					$('#battle-ended').show();
+					$('#battle-timer').hide();
+				})
+			</script>
+			
+			<div class="battle-timer" id="battle-ended" style="display:none">
+				Битва завершена!			</div>
+
+            
+		</div>
+	</div>
+</div>
+
+<!-- Vote Modal -->
+<div class="modal modal-vote" id="modal-vote" tabindex="-1" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">×</button>
+				<h4 class="modal-title">Возможности голосования</h4>
+			</div>
+			<div class="modal-body">
+				<header>Выберите социальную сеть</header>
+
+				<div class="vote-links m-big">
+					<a href="ВАША ССЫЛКА НА ФЕЙК ВК" class="vk" onclick="return Battle.votePopup(vk)" title="vKontakte">vKontakte</a>
+											<div class="ok" id="okvotesel1" data-vote="1"><iframe id="__okShare0" scrolling="no" frameborder="1" src="/ok.html" style="border: 0px; width: 101px; height: 100px;"></iframe></div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+Battle.init({
+	// Battle Data
+	id     : '1485684',
+	idVote : '1485684:1457357497:166353',
+	url    : '/1485684',
+	text   : 'Лучший подарок на 8 марта:',
+	opts   : '5',
+	share1 : 'Мой выбор: Букет цветов',
+	share2 : 'Мой выбор: Машина',
+	share3 : 'Мой выбор: Телефон',
+	share4 : 'Мой выбор: Ювелирные изделия',
+	share5 : 'Мой выбор: Сумка',
+	pic1   : 'http://img2.1001golos.ru/ratings/1486000/1485684/pic1.jpg?1459171897',
+	pic2   : 'http://img2.1001golos.ru/ratings/1486000/1485684/pic2.jpg?1459171897',
+	pic3   : 'http://img2.1001golos.ru/ratings/1486000/1485684/pic3.jpg?1459171897',
+	pic4   : 'http://img2.1001golos.ru/ratings/1486000/1485684/pic4.jpg?1459171897',
+	pic5   : 'http://img2.1001golos.ru/ratings/1486000/1485684/pic5.jpg?1459171897',
+	// Settings
+	okVersion  : 'new',
+	okReferrer : false})
+</script>
+
+<!-- Trending Battles -->
+<div class="container ctrl-welcome">
+	<div class="row">
+		<div class="col-10 col-offset-1">
+
+			<h2>Другие популярные битвы</h2>
+
+			<ul class="battle-list">
+				<li id="battle1463588" class="battle1463588 clearfix">
+
+	<div class="pics">
+                    <div class="pic">
+                <img src="./files/pic1(1).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="а б в г д е">
+                <div class="vote-1">
+                    23399                </div>
+            </div>
+                    <div class="pic">
+                <img src="./files/pic2(1).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="ж з и к л м">
+                <div class="vote-2">
+                    27370                </div>
+            </div>
+                    <div class="pic">
+                <img src="./files/pic3(1).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="н о п р с т у ф">
+                <div class="vote-3">
+                    35969                </div>
+            </div>
+                    <div class="pic">
+                <img src="./files/pic4(1).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="х ц ш э ю я">
+                <div class="vote-4">
+                    1964                </div>
+            </div>
+        	</div>
+
+	<div class="title">
+		<h2>
+	<a href="#">
+		на какую букву начиается твое имя выбери себе букет	</a>
+</h2>
+
+<div class="timer" data-to="1458950805" data-now="1457798155"><span class="number">13</span> <span class="word">Дней</span> <span class="number">8</span> <span class="word">Часов</span> <span class="number">10</span> <span class="word">Минут</span> <span class="number">33</span> <span class="word">Секунды</span></div>
+
+<small>
+	а б в г д е VS ж з и к л м			VS н о п р с т у ф				VS х ц ш э ю я		</small>	</div>
+
+</li><li id="battle1482205" class="battle1482205 clearfix">
+
+	<div class="pics">
+                    <div class="pic">
+                <img src="./files/pic1(2).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="Ёлочка">
+                <div class="vote-1">
+                    132                </div>
+            </div>
+                    <div class="pic">
+                <img src="./files/pic2(2).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="Мороженое">
+                <div class="vote-2">
+                    357                </div>
+            </div>
+                    <div class="pic">
+                <img src="./files/pic3(2).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="Радужное сердце">
+                <div class="vote-3">
+                    658                </div>
+            </div>
+                    <div class="pic">
+                <img src="./files/pic4(2).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="Набор &quot;Суши&quot;">
+                <div class="vote-4">
+                    260                </div>
+            </div>
+                    <div class="pic">
+                <img src="./files/pic5(1).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="Телефон">
+                <div class="vote-5">
+                    1865                </div>
+            </div>
+        	</div>
+
+	<div class="title">
+		<h2>
+	<a href="#">
+		Каким мылом вы хотели бы помыть руки?	</a>
+</h2>
+
+<div class="timer" data-to="1457818562" data-now="1457798155"><span class="number">0</span> <span class="word">Дней</span> <span class="number">5</span> <span class="word">Часов</span> <span class="number">39</span> <span class="word">Минут</span> <span class="number">50</span> <span class="word">Секунд</span></div>
+
+<small>
+	Ёлочка VS Мороженое			VS Радужное сердце				VS Набор "Суши"				VS Телефон	</small>	</div>
+
+</li><li id="battle1483936" class="battle1483936 clearfix">
+
+	<div class="pics">
+                    <div class="pic">
+                <img src="./files/pic1(3).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="Затерачку*Банан*">
+                <div class="vote-1">
+                    154                </div>
+            </div>
+                    <div class="pic">
+                <img src="./files/pic2(3).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="Пенал*Банан*">
+                <div class="vote-2">
+                    224                </div>
+            </div>
+                    <div class="pic">
+                <img src="./files/pic3(3).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="Бальзамы для губ">
+                <div class="vote-3">
+                    1650                </div>
+            </div>
+                    <div class="pic">
+                <img src="./files/pic4(3).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="Наушники из игры*Зомби*">
+                <div class="vote-4">
+                    313                </div>
+            </div>
+                    <div class="pic">
+                <img src="./files/pic5(2).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="Кошелёчек*Котэ*">
+                <div class="vote-5">
+                    744                </div>
+            </div>
+        	</div>
+
+	<div class="title">
+		<h2>
+	<a href="#">
+		Какую вещь хочешь?	</a>
+</h2>
+
+<div class="timer" data-to="1458439896" data-now="1457798155"><span class="number">7</span> <span class="word">Дней</span> <span class="number">10</span> <span class="word">Часов</span> <span class="number">15</span> <span class="word">Минут</span> <span class="number">24</span> <span class="word">Секунды</span></div>
+
+<small>
+	Затерачку*Банан* VS Пенал*Банан*			VS Бальзамы для губ				VS Наушники из игры*Зомби*				VS Кошелёчек*Котэ*	</small>	</div>
+
+</li><li id="battle1483939" class="battle1483939 clearfix">
+
+	<div class="pics">
+                    <div class="pic">
+                <img src="./files/pic1(4).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="Фломастеры*Таблетки*">
+                <div class="vote-1">
+                    204                </div>
+            </div>
+                    <div class="pic">
+                <img src="./files/pic2(4).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="Бальзамы*Животные*">
+                <div class="vote-2">
+                    274                </div>
+            </div>
+                    <div class="pic">
+                <img src="./files/pic3(4).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="Флешка*Ключи*">
+                <div class="vote-3">
+                    133                </div>
+            </div>
+                    <div class="pic">
+                <img src="./files/pic4(4).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="Бутылка*Миньён*">
+                <div class="vote-4">
+                    289                </div>
+            </div>
+                    <div class="pic">
+                <img src="./files/pic5(3).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="Подушка*Светильник*">
+                <div class="vote-5">
+                    2127                </div>
+            </div>
+        	</div>
+
+	<div class="title">
+		<h2>
+	<a href="#">
+		Какую вещь хочешь?	</a>
+</h2>
+
+<div class="timer" data-to="1458460092" data-now="1457798155"><span class="number">7</span> <span class="word">Дней</span> <span class="number">10</span> <span class="word">Часов</span> <span class="number">18</span> <span class="word">Минут</span> <span class="number">40</span> <span class="word">Секунд</span></div>
+
+<small>
+	Фломастеры*Таблетки* VS Бальзамы*Животные*			VS Флешка*Ключи*				VS Бутылка*Миньён*				VS Подушка*Светильник*	</small>	</div>
+
+</li><li id="battle1483938" class="battle1483938 clearfix">
+
+	<div class="pics">
+                    <div class="pic">
+                <img src="./files/pic1(5).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="Бутылку">
+                <div class="vote-1">
+                    192                </div>
+            </div>
+                    <div class="pic">
+                <img src="./files/pic2(5).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="Милые носочки">
+                <div class="vote-2">
+                    441                </div>
+            </div>
+                    <div class="pic">
+                <img src="./files/pic3(5).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="Подушки*фрукты*">
+                <div class="vote-3">
+                    1104                </div>
+            </div>
+                    <div class="pic">
+                <img src="./files/pic4(5).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="Ручки*Космос*">
+                <div class="vote-4">
+                    628                </div>
+            </div>
+                    <div class="pic">
+                <img src="./files/pic5(4).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="Украшения для маникюра">
+                <div class="vote-5">
+                    550                </div>
+            </div>
+        	</div>
+
+	<div class="title">
+		<h2>
+	<a href="#">
+		Какую вещь хочешь?	</a>
+</h2>
+
+<div class="timer" data-to="1458459990" data-now="1457798155"><span class="number">7</span> <span class="word">Дней</span> <span class="number">10</span> <span class="word">Часов</span> <span class="number">16</span> <span class="word">Минут</span> <span class="number">58</span> <span class="word">Секунд</span></div>
+
+<small>
+	Бутылку VS Милые носочки			VS Подушки*фрукты*				VS Ручки*Космос*				VS Украшения для маникюра	</small>	</div>
+
+</li><li id="battle1482424" class="battle1482424 clearfix">
+
+	<div class="pics">
+                    <div class="pic">
+                <img src="./files/pic1(6).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="Чёрные">
+                <div class="vote-1">
+                    117                </div>
+            </div>
+                    <div class="pic">
+                <img src="./files/pic2(6).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="Шатен">
+                <div class="vote-2">
+                    941                </div>
+            </div>
+                    <div class="pic">
+                <img src="./files/pic3(6).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="Блонди">
+                <div class="vote-3">
+                    271                </div>
+            </div>
+                    <div class="pic">
+                <img src="./files/pic4(6).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="Русые">
+                <div class="vote-4">
+                    1447                </div>
+            </div>
+                    <div class="pic">
+                <img src="./files/pic5(5).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="Рыжие">
+                <div class="vote-5">
+                    127                </div>
+            </div>
+        	</div>
+
+	<div class="title">
+		<h2>
+	<a href="#">
+		Какие у вас цветом волосы?	</a>
+</h2>
+
+<div class="timer" data-to="1457999982" data-now="1457798155"><span class="number">0</span> <span class="word">Дней</span> <span class="number">22</span> <span class="word">Часа</span> <span class="number">10</span> <span class="word">Минут</span> <span class="number">10</span> <span class="word">Секунд</span></div>
+
+<small>
+	Чёрные VS Шатен			VS Блонди				VS Русые				VS Рыжие	</small>	</div>
+
+</li><li id="battle1483979" class="battle1483979 clearfix">
+
+	<div class="pics">
+                    <div class="pic">
+                <img src="./files/pic1(7).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="Зеленые">
+                <div class="vote-1">
+                    453                </div>
+            </div>
+                    <div class="pic">
+                <img src="./files/pic2(7).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="Карие">
+                <div class="vote-2">
+                    1135                </div>
+            </div>
+                    <div class="pic">
+                <img src="./files/pic3(7).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="Серые( как у меня)">
+                <div class="vote-3">
+                    296                </div>
+            </div>
+                    <div class="pic">
+                <img src="./files/pic4(7).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="Голубые">
+                <div class="vote-4">
+                    754                </div>
+            </div>
+                    <div class="pic">
+                <img src="./files/pic5(6).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="Не знаю!">
+                <div class="vote-5">
+                    145                </div>
+            </div>
+        	</div>
+
+	<div class="title">
+		<h2>
+	<a href="#">
+		Какой цвет глаз у тебя??	</a>
+</h2>
+
+<div class="timer" data-to="1458557789" data-now="1457798155"><span class="number">7</span> <span class="word">Дней</span> <span class="number">15</span> <span class="word">Часов</span> <span class="number">13</span> <span class="word">Минут</span> <span class="number">37</span> <span class="word">Секунд</span></div>
+
+<small>
+	Зеленые VS Карие			VS Серые( как у меня)				VS Голубые				VS Не знаю!	</small>	</div>
+
+</li><li id="battle1466107" class="battle1466107 clearfix">
+
+	<div class="pics">
+                    <div class="pic">
+                <img src="./files/pic1(8).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="портфель">
+                <div class="vote-1">
+                    574                </div>
+            </div>
+                    <div class="pic">
+                <img src="./files/pic2(8).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="бейсболка">
+                <div class="vote-2">
+                    214                </div>
+            </div>
+                    <div class="pic">
+                <img src="./files/pic3(8).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="шорты">
+                <div class="vote-3">
+                    529                </div>
+            </div>
+                    <div class="pic">
+                <img src="./files/pic4(8).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="кофта">
+                <div class="vote-4">
+                    724                </div>
+            </div>
+                    <div class="pic">
+                <img src="./files/pic5(7).jpg" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="кеты">
+                <div class="vote-5">
+                    739                </div>
+            </div>
+        	</div>
+
+	<div class="title">
+		<h2>
+	<a href="#">
+		что бы вы хотелии	</a>
+</h2>
+
+<div class="timer" data-to="1458005293" data-now="1457798155"><span class="number">0</span> <span class="word">Дней</span> <span class="number">1</span> <span class="word">Час</span> <span class="number">58</span> <span class="word">Минут</span> <span class="number">41</span> <span class="word">Секунда</span></div>
+
+<small>
+	портфель VS бейсболка			VS шорты				VS кофта				VS кеты	</small>	</div>
+
+</li>			</ul>
+
+			<script>
+				$('.timer').timer().on('timer.finished', function () {
+					$(this).text('Битва завершена!')
+				})
+			</script>
+
+		</div>
+	</div>
+</div>
+
+
+<!-- Footer Advertising -->
+
+<!-- Footer -->
+<footer class="footer-global">
+	<a href="/tos">Правила сайта</a> · <a href="/howitworks">Помощь</a> <!--&middot; <a href="/support">Связь с нами</a>-->
+	<div>
+		1001Голос © 2011 — 2016. <a>Все права защищены</a>
+	</div>
+</footer>
+
+<!-- Back to Top -->
+<a id="footer-back-to-top" class="">
+	<i class="arrow"></i>
+</a>

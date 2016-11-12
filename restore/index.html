@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="shortcut icon" href="/1001golos.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Восстановление Пароля / 1001Голос</title>
+
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="1 hour">
+	<meta name="description" content="Онлайн голосование определит лучшего! Создавайте битвы, смотрите лучшие битвы, узнавайте результаты завершённых битв.">
+	<meta name="keywords" content="Битвы, битва, лучшие битвы, создать битву, завершённые битвы, голосование, онлайн битвы, 1001голос, 1001 голос, интернет битвы, социальные сети">
+
+	<meta property="fb:admins" content="1341124907">
+	    
+    <link type="text/css" href="http://1001golos.ru/static/css/frontend.css" rel="stylesheet" media="all">    
+    <!-- JS-->
+	<script>
+		window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+		ga('create', 'UA-22922008-3', 'auto');
+		ga('send', 'pageview');
+		window.onerror = function(errMsg, url, line) {
+			ga('send', 'event', 'JavaScript Error', errMsg, navigator.userAgent+' -> '+url+':'+line, {nonInteraction:1});
+			return true;
+		};
+	</script>
+    <script type="text/javascript" src="http://1001golos.ru/static/js/libs.js"></script>    <script type="text/javascript" src="http://1001golos.ru/static/js/app.js"></script>    
+	<script>
+        if(window.self !== window.top) {window.top.location.href=window.location.href;}
+
+		$.fn.timer.Constructor.prototype.DEFAULTS.language = {
+						d: { 0: "День",    1: "Дня",     2: "Дней"   },
+						h: { 0: "Час",     1: "Часа",    2: "Часов"  },
+						m: { 0: "Минута",  1: "Минуты",  2: "Минут"  },
+						s: { 0: "Секунда", 1: "Секунды", 2: "Секунд" }
+						};
+    </script>
+<link type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" media="all"></head>
+<body>
+
+<!-- TOP MENU -->
+<nav class="navbar navbar-header navbar-fixed-top">
+	<div class="container">
+		<a href="/index.html" class="navbar-brand">1001Голос | Битвы через социальные сети</a>
+
+		<ul class="nav navbar-nav">
+			<li><a href="/add"><i class="fa fa-plus"></i> Добавить битву</a></li>
+			<li><a href="/browse"><i class="fa fa-star"></i> Лучшие битвы</a></li>
+		</ul>
+
+				<ul class="nav navbar-nav pull-right">
+			<li><a href="/signin">Вход</a></li>
+			<li><a href="/signup">Регистрация</a></li>
+		</ul>
+			</div>
+</nav>
+
+
+<!-- Header Advertising -->
+	<div class="container" style="margin-bottom: 40px;">
+		<div class="row">
+			<div style="width:728px;margin:0 auto">
+
+<!-- 1001 Голос (верх) -->
+
+
+</div>
+		</div>
+	</div>
+
+<!-- Page Content -->
+	<div class="container ctrl-reset">
+
+		<div class="alert alert-info">
+			Заполните форму, и вы получите письмо с ссылкой восстановления.
+			Вам необходимо иметь доступ к е-майлу, указанному при регистрации.
+		</div>
+
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">Восстановление пароля</h3>
+			</div>
+			<form method="post" action="./recovery.php" accept-charset="utf-8">
+
+				<div class="panel-body">
+
+					
+					<div class="form-group">
+						<label class="control-label" required="required" minlength="1" for="username">Логин / Е-Майл</label>
+						<input type="text" size="30" name="username" id="username" class="form-control" value="">
+						<div class="help-block">
+							Вашей учетной записи.
+						</div>
+					</div>
+				</div>
+
+				<div class="panel-footer">
+					<button type="submit" class="btn btn-large btn-primary">Продолжить</button>
+				</div>
+
+			</form>
+		</div>
+	</div>
+
+<!-- Footer Advertising -->
+
+<!-- Footer -->
+<footer class="footer-global">
+	<a href="/tos">Правила сайта</a> · <a href="/howitworks">Помощь</a> <!--&middot; <a href="/support">Связь с нами</a>-->
+	<div>
+		1001Голос © 2011 — 2016. <a>Все права защищены</a>
+	</div>
+</footer>
+
+<!-- Back to Top -->
+<a id="footer-back-to-top" class="offscreen">
+	<i class="arrow"></i>
+</a>
+
+
+
+
+</body></html>
